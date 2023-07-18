@@ -1,11 +1,14 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/analytics.png'
-import IMG2 from '../../assets/keepfit.png'
+import IMG2 from '../../assets/fitkeep.png'
 import IMG3 from '../../assets/userdashboard.png'
-import IMG4 from '../../assets/qudroidquiz.png'
-import IMG5 from '../../assets/qudroidquiz4.png'
+import IMG4 from '../../assets/weather.png'
+import IMG5 from '../../assets/quizapp.png'
 const Portfolio = () => {
+     const handleLink = (url)=>{
+          window.location.href = url;
+     };
   return (
   <section>
     <h5>My Recent Work</h5>
@@ -15,15 +18,16 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
              <img src={IMG1}/>
             </div>
-            <h3>This is the portfolio item title</h3>
+            <h3>QuizGrad Analytic View</h3>
             <a href='https//github.com' className='btn' target='_blank'>Github</a>
        </article>
        <article className='portfolio__item'>
             <div className="portfolio__item-image">
              <img src={IMG2}/>
             </div>
-            <h3>This is the portfolio item title</h3>
-            <a href='https//github.com' className='btn' target='_blank'>Github</a>
+            <h3>FitKeep</h3>
+            <a href='https//github.com/fidel-wole' className='btn' target='_blank'>Github</a>
+            <a href='#' onClick={()=>handleLink('https://fidel-wole.github.io/Fitkeep')} className='btn'>View</a>
        </article>
        <article className='portfolio__item'>
             <div className="portfolio__item-image">
@@ -36,15 +40,17 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
              <img src={IMG4}/>
             </div>
-            <h3>This is the portfolio item title</h3>
-            <a href='https//github.com' className='btn' target='_blank'>Github</a>
+            <h3>Weather Forecast App</h3>
+          
+             <a href='#' onClick={()=>handleLink('https://fidel-wole.github.io/weather_forecast')} className='btn'>View</a>
        </article>
        <article className='portfolio__item'>
             <div className="portfolio__item-image">
              <img src={IMG5}/>
             </div>
-            <h3>This is the portfolio item title</h3>
+            <h3>Quiz App</h3>
             <a href='https//github.com' className='btn' target='_blank'>Github</a>
+             <a href='#' onClick={()=>handleLink('https://fidel-wole.github.io/Js-Quiz-App')}className='btn' >View</a>
        </article>
     </div>
   </section>
