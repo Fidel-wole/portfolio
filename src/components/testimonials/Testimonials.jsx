@@ -1,6 +1,6 @@
 import React from 'react'
 import './testimonials.css'
-import AVA1 from '../../assets/meabout.jpg'
+import AVA1 from '../../assets/meabout.JPG'
 import {Pagination, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
