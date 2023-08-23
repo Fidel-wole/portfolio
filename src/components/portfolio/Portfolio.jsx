@@ -5,6 +5,7 @@ import IMG2 from '../../assets/fitkeep.png'
 import IMG3 from '../../assets/userdashboard.png'
 import IMG4 from '../../assets/weather.png'
 import IMG5 from '../../assets/quizapp.png'
+import IMG6 from '../../assets/IMG6.jpg'
 const Portfolio = () => {
      const handleLink = (url)=>{
           window.location.href = url;
@@ -33,8 +34,8 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
              <img src={IMG3}/>
             </div>
-            <h3>This is the portfolio item title</h3>
-            <a href='https//github.com' className='btn' target='_blank'>Github</a>
+            <h3>QuizGrad</h3>
+            <a href='https//github.com/Fidel-Wole/' className='btn' target='_blank'>Github</a>
        </article>
        <article className='portfolio__item'>
             <div className="portfolio__item-image">
@@ -50,7 +51,15 @@ const Portfolio = () => {
             </div>
             <h3>Quiz App</h3>
             <a href='https//github.com' className='btn' target='_blank'>Github</a>
-             <a href='#' onClick={()=>handleLink('https://fidel-wole.github.io/Js-Quiz-App')}className='btn' >View</a>
+             <a href='#' onClick={()=>handleLink('https://fidel-wole.github.io/Bio-101-questions')}className='btn' >View</a>
+       </article>
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+             <img src={IMG6}/>
+            </div>
+            <h3>Quiz Hub built with react js</h3>
+            <a href='https//github.com' className='btn' target='_blank'>Github</a>
+             <a href='#' onClick={()=>handleLink('https://fidel-wole.github.io/React-Js-Quiz-App')}className='btn' >View</a>
        </article>
     </div>
   </section>
