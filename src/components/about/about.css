@@ -18,6 +18,7 @@
 
 }
 .about__me-image{
+
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
@@ -78,10 +79,11 @@
 @media screen and (max-width:600px) {
     .about__me{
         width: 65%;
-        margin: 0 auto 3rem;
+        margin: 3rem;
     }
     .about__cards{
         grid-template-columns: 1fr 1fr;
+        margin-top: 2rem;
     }
     .about__content{
         text-align: center;

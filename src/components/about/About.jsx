@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import MeAbout from '../../assets/meabout.JPG'
+import MeAbout from '../../assets/me.JPG'
 import {FiAward} from 'react-icons/fi'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -33,9 +33,15 @@ const About = () => {
           <small>20+ Completed</small>
         </article>
        </div>
-       <p>vusfgufa auhguah nuhgfau ihugh nuhugh uh uh nhu uhg nnuh
-         uhuhg puh nuhg     gh uhruh huhguh uh guhruha rhugahuha guhu
-         rgah pjnrbnr uur nvuhru hug uhuhuhu urhghu huhgrh uhrhu pr
+       <p>
+        Passionate Web developer experienced in creating dynamic and user-friendly 
+        web applications. Proficient in Javascript, React, Node Js, PHP(Laravel)
+        , HTML, CSS, with a strong focus on backend development. 
+        Skilled in translating design concepts into efficient and responsive code. 
+        Constantly staying up-to-date with the latest web development trends and technologies to deliver 
+        cutting-edge solutions. Dedicated to delivering high-quality, scalable, and maintainable code.
+         Committed to collaborating with cross-functional teams to create intuitive and seamless user experiences. 
+        Let's connect and discuss how I can contribute to your web development projects!
        </p>
     </div>
 </div>
